@@ -114,3 +114,30 @@ form{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #cccccc;
 }
+
+.port-img-container{
+    float: left;
+    position: relative;
+    width: 300px;
+    margin: 30px;
+    overflow: auto;
+}
+
+.port-img{
+    width: 100%;
+}
+
+.centered-text{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    padding: 18px 0 18px 0;
+    text-align: center;
+
+
+}
